@@ -1,0 +1,143 @@
+.container {
+	margin: 0 15px;
+}
+
+input {
+	position: relative;
+	float: right;
+	width: 90%;
+	margin: 0 5%;
+	padding: 10px;
+	border-radius: 15px;
+	border: 1px solid #aaa;
+	outline: none;
+	font-size: 24px;
+	z-index: 2;
+	background: #fff;
+}
+
+/* Search.js */
+
+.searchContainer {
+	position: absolute;
+	display: inline-block;
+	float: right;
+	width: 90%;
+	padding: 5px;
+	right: calc(5% + 15px);
+	z-index: 3;
+	visibility: hidden;
+}
+
+.searchContainer button {
+	position: relative;
+	float: right;
+	padding: 10px 25px;
+	font-size: 16px;
+	border-radius: 15px;
+	border: 1px solid #aaa;
+	background: #5CB85C;
+	color: #fefefe;
+	outline: none;
+	cursor: pointer;
+	visibility: visible;
+}
+
+/* EpisodeList.js */
+
+.dashboard {
+	position: relative;
+	top: 25px;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: nowrap;
+}
+
+.dashboard p {
+	margin: 5px;
+	padding: 10px;
+	border: 1px solid #aaa;
+	border-radius: 15px;
+}
+
+.epList {
+	position: relative;
+	top: 25px;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+/* EpisodeContainer.js */
+
+.epContainer {
+	position: relative;
+	width: 45%;
+	margin: 0 0 15px 0;
+	padding: 15px;
+	border-radius: 15px;
+}
+
+.epContainer:nth-child(odd) {
+	float: right;
+}
+
+.epEpisode {
+	position: relative;
+	float: left;
+	left: 5px;
+}
+
+.epTitle {
+	position: relative;
+	float: left;
+}
+
+.epTitle h2 {
+	display: inline-block;
+	margin: 0;
+	font-size: 1.1em;
+}
+
+.epImgContainer {
+	position: relative;
+	float: left;
+	width: 100%;
+	clear: both;
+}
+
+.epReleased {
+	position: relative;
+	float: left;
+}
+
+.epimdbRating {
+	position: relative;
+	float: left;
+	left: 15px;
+}
+
+.epPlot {
+	position: relative;
+	float: left;
+	margin-top: 15px;
+}
+
+.epButton {
+	float: right;
+	padding: 10px 25px;
+	font-size: 16px;
+	border-radius: 15px;
+	border: 0px;
+	background: #ff8989;
+	color: #fefefe;
+	outline: none;
+}
+
+.ratingAwesome {
+	background-color: #FFB90F;
+}
